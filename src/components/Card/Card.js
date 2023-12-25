@@ -1,5 +1,5 @@
 import "./Card.css"
-export function Card({ logo, price, tvl, apr, percentage, graphcircle , text}) {
+export function Card({ logo, price, tvl, apr, percentage, graphcircle, text }) {
     return (
         <>
             <div>
@@ -106,15 +106,15 @@ export function StackCard({ stacklextitle, stacklexnumber, wallet, staked, apr, 
                         </div>
 
                     </div>
-                  <div className="d-flex justify-content-between">
-                  <div className="card2-total-stacked data-name"><p>Total Staked</p>
-                        <p className="card2-total-stacke-number data-value">2,507,184.80 esLEX ($10,161.62)</p>
-                    </div>
-                    <div className="card2-total-stacked data-name"><p>Total Supply</p>
-                        <p className="card-2-total-stacke-number data-value">7,143,975 esLEX ($28,954)</p>
-                    </div>
+                    <div className="d-flex justify-content-between">
+                        <div className="card2-total-stacked data-name"><p>Total Staked</p>
+                            <p className="card2-total-stacke-number data-value">2,507,184.80 esLEX ($10,161.62)</p>
+                        </div>
+                        <div className="card2-total-stacked data-name"><p>Total Supply</p>
+                            <p className="card-2-total-stacke-number data-value">7,143,975 esLEX ($28,954)</p>
+                        </div>
 
-                  </div>
+                    </div>
                     <div><button className="buy-lex-btm">Connect Wallet</button></div>
                 </div>
             </div>
